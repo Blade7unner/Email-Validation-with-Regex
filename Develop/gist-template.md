@@ -4,7 +4,9 @@ Regular expressions (regex) are powerful tools for pattern matching within strin
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+In this tutorial, we will dissect the regular expression /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/, which is designed to validate email addresses. This regex pattern ensures that the email address follows a standard format, consisting of a local part, an "@" symbol, a domain name, and a top-level domain (TLD).
+
+/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
@@ -20,7 +22,9 @@ Briefly summarize the regex you will be describing and what you will explain. In
 ## Regex Components
 
 ### Anchors
+Anchors are used to specify the position of a match within the string. In our regex pattern, ^ denotes the start of the string, ensuring that the match begins at the beginning of the email address, and $ signifies the end of the string, ensuring that the match ends at the end of the email address.
 
+/^...$/
 ### Quantifiers
 
 ### Grouping Constructs
