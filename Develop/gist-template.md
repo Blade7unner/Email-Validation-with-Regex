@@ -81,4 +81,4 @@ Character escapes allow matching of special characters like `.` and `@` literall
 
 ## Author
 
-Written by Felipe Benoit (git hub url)
+Written by Felipe Benoit  https://github.com/Blade7unner
